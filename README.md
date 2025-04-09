@@ -1,4 +1,4 @@
-# Phone Number Formatter Variable for Google Tag Manager
+# Phone Number Formatter Variable for Google Tag Manager Web Container
 
 A Google Tag Manager variable template that formats phone numbers to the E.164 standard format. The formatter handles:
 
@@ -28,4 +28,4 @@ Initial development was done by [Lars Friis](https://www.linkedin.com/in/lars-fr
 
 Maintenance and unit tests added by [Giovani Ortolani Barbosa](https://www.linkedin.com/in/giovani-ortolani-barbosa/).
 
-Phone Number Formatter Variable for GTM is developed and maintained by [Stape Team](https://stape.io/) under the Apache 2.0 license.
+Phone Number Formatter Variable for GTM Web Container is developed and maintained by [Stape Team](https://stape.io/) under the Apache 2.0 license.
