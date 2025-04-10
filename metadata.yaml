@@ -1,5 +1,7 @@
 homepage: "https://stape.io/"
 versions:
+  - sha: 7bd52e81a7d2afcb37f2270558d7c73a832d18f6
+    changeNotes: Format code.
   - sha: 654d908654e8b0fbb8de650fc1837e2569c6f0f1
     changeNotes: Fix the Lithuanian number bug (leading 0 or 8). Add tests. Refactor code.
   - sha: 147562f6034ceb2f46e9ddcd80168376e1b6c695
