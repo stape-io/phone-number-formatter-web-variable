@@ -104,7 +104,7 @@ function formatPhoneNumber(phoneNum, country) {
     // Handle Swedish national phone number starting with 0 (but not 0046).
     // See: https://dialaxy.com/blogs/sweden-phone-number-format/
     se: (phone) => {
-      if (phone.indexOf('0') === 0) return phone.substring(1);
+      if (phone[0] === '0') return phone.substring(1);
     }
   };
 
@@ -114,7 +114,7 @@ function formatPhoneNumber(phoneNum, country) {
 
   // Return phone if no area code found for the supplied country code.
   if (!countryCode) {
-    return phone.indexOf('+') === 0 ? phone : '+' + phone;
+    return phone[0] === '+' ? phone : '+' + phone;
   }
 
   // If phone starts with +<countryCode>, return phone.
