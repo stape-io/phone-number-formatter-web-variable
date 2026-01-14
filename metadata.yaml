@@ -1,5 +1,8 @@
 homepage: 'https://stape.io/'
+documentation: 'https://github.com/stape-io/phone-number-formatter-web-variable'
 versions:
+  - sha: 19158b7104410491b939be8aea5af82b88d6bf8e
+    changeNotes: Added support for national/trunk prefix removal for multiple countries.
   - sha: d88dd5d47b1bd74f3c02e01198946354d40069f9
     changeNotes: Fix the Swedish national number bug (leading 0). Add tests. Refactor code.
   - sha: 7bd52e81a7d2afcb37f2270558d7c73a832d18f6
